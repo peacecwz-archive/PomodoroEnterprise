@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PomodoroEnterprise.Mobile.Views.TabPages.SettingsPage"
+             Title="Settings"
+             BindingContext="{Binding}">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="15" Margin="10" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Çalışma Süresi"></Label>
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Slider x:Name="slPomodorLongTime" HorizontalOptions="FillAndExpand" ValueChanged="slPomodorLongTime_ValueChanged" Value="25" Maximum="60"/>
+                    <Label x:Name="lblPomodorLongTime"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Kısa Mola Süresi"></Label>
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Slider x:Name="slPomodorShortTime" HorizontalOptions="FillAndExpand" ValueChanged="slPomodorShortTime_ValueChanged" Value="5" Maximum="20"></Slider>
+                    <Label x:Name="lblPomodorShortTime"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Uzun Mola Süresi"></Label>
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Slider x:Name="slPomodorPeriodTime" HorizontalOptions="FillAndExpand" ValueChanged="slPomodorPeriodTime_ValueChanged" Value="30" Maximum="60"></Slider>
+                    <Label x:Name="lblPomodorPeriodTime"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Uzun Mola Seans Süresi"></Label>
+                <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                    <Slider x:Name="slPomodorPeriodCount" HorizontalOptions="FillAndExpand" ValueChanged="slPomodorPeriodCount_ValueChanged" Value="4" Maximum="10"></Slider>
+                    <Label x:Name="lblPomodorPeriodCount"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Telefonu Rahatsız Etme"/>
+                <Switch x:Name="swIsQuite" IsToggled="False" />
+            </StackLayout>
+
+            <Button Text="Import Trello Tasks" Clicked="ImportTrello_Clicked"/>
+            <Button Text="Log Out" Clicked="Logout_Clicked"/>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

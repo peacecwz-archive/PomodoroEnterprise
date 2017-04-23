@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PomodoroEnterprise.Mobile.Views.RegisterPage">
+    <StackLayout HorizontalOptions="FillAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Orientation="Vertical"
+                 Margin="20,0,20,0">
+
+        <Entry x:Name="txtUsername" Placeholder="Username" />
+        <Entry x:Name="txtEmail" Placeholder="E-Mail Address" />
+        <Entry x:Name="txtPassword" IsPassword="True" Placeholder="Password" />
+        <Entry x:Name="txtPasswordConfirm" IsPassword="True" Placeholder="Password Confirm" />
+
+        <Button Text="Register" Clicked="Register_Clicked"/>
+    </StackLayout>
+</ContentPage>

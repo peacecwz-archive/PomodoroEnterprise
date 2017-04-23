@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PomodoroEnterprise.Mobile.Views.AddTaskPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Clicked="ToolbarItem_Clicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical"
+                     HorizontalOptions="FillAndExpand"
+                     VerticalOptions="CenterAndExpand"
+                     Margin="20,0,20,0">
+            <Entry x:Name="txtName" Placeholder="Task Name"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Dead Line"/>
+                <DatePicker x:Name="datePicker" Margin="10,0,0,0" HorizontalOptions="FillAndExpand"></DatePicker>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

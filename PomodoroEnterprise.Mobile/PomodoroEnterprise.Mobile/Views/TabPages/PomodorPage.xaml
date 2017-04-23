@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PomodoroEnterprise.Mobile.Views.TabPages.PomodorPage"
+             xmlns:controls="clr-namespace:PomodoroEnterprise.Mobile.Controls"
+             Title="Pomodor">
+    <ContentPage.Content>
+        <Grid >
+            <Grid x:Name="main1">
+                <StackLayout Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="Center">
+                    <Label x:Name="_lblTime" Text="" FontSize="16" VerticalOptions="Center" HorizontalOptions="Center"  TextColor="#b30101" FontAttributes="Bold" Font="42"/>
+                    <controls:RadialProgressValue x:Name="progressBar" HeightRequest="100" WidthRequest="100" BackgroundColor="Black" Maximum="100" FillColor="Blue" />
+                    <Button x:Name="_btnTimerStarter" Text="Start" Clicked="_btnTimerStarter_Clicked" BorderRadius="2500" TextColor="Red"></Button>
+                </StackLayout>
+            </Grid>
+            <Grid x:Name="main2">
+                <Label Text="You need to select task" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            </Grid>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

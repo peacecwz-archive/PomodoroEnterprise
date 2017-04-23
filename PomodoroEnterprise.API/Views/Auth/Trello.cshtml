@@ -1,0 +1,19 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Trello</title>
+</head>
+<body>
+    <script>
+        var url = window.location.href.split('#');
+        var token = url[0].replace("token=", "");
+        window.location.href = document.location.origin+"\api\integrate\endtrello";
+    </script>
+</body>
+</html>

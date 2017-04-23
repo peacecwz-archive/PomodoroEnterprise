@@ -1,0 +1,17 @@
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\bin\Debug\TrelloNET.dll
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\bin\Debug\TrelloNET.pdb
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\bin\Debug\Newtonsoft.Json.dll
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\bin\Debug\RestSharp.dll
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\bin\Debug\Newtonsoft.Json.xml
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\bin\Debug\RestSharp.xml
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\obj\Debug\TrelloNET.dll
+c:\users\baris\documents\visual studio 2017\Projects\TrelloSample\TrelloNET\obj\Debug\TrelloNET.pdb
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Debug\TrelloNET.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Debug\TrelloNET.pdb
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Debug\Newtonsoft.Json.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Debug\RestSharp.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Debug\Newtonsoft.Json.xml
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Debug\RestSharp.xml
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\obj\Debug\TrelloNET.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\obj\Debug\TrelloNET.pdb
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\obj\Debug\TrelloNET.csprojResolveAssemblyReference.cache

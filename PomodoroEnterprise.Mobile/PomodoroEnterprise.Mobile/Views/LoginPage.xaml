@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PomodoroEnterprise.Mobile.Views.LoginPage">
+    <Grid Margin="10,0,10,0">
+        <ActivityIndicator x:Name="loading" Color="Red" IsRunning="{Binding IsRunning}" />
+        <StackLayout IsVisible="{Binding IsHidden}" Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+            <Label Text="POMODORO Enterprise" FontSize="18"
+                TextColor="Gray" HorizontalTextAlignment="Center"/>
+
+
+            <Entry x:Name="txtUsername"  FontFamily="Calibri" FontSize="14"
+           HorizontalTextAlignment="Center" Placeholder="Username or Email"
+           PlaceholderColor="Gray" TextColor="Gray"/>
+
+            <Entry x:Name="txtPassword" FontFamily="Calibri" FontSize="14"
+           HorizontalTextAlignment="Center" IsPassword="True" Placeholder="Password"
+           PlaceholderColor="Gray" TextColor="Gray"/>
+
+
+            <Button Clicked="Login_Clicked" Text="Log In"></Button>
+            <Button Clicked="Register_Clicked" Text="Register" BorderColor="Transparent" BackgroundColor="White"></Button>
+            <Button Text="Connect with Google" BorderColor="Transparent" BackgroundColor="White" ></Button>
+
+        </StackLayout>
+    </Grid>
+
+</ContentPage>

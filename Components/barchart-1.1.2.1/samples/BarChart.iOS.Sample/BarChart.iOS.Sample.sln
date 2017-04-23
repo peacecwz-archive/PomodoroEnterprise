@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarChart.iOS.Sample", "BarChart.iOS.Sample.csproj", "{1AF7132C-AB4C-48EC-9447-59288DF37EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Debug|iPhone.Build.0 = Debug|iPhone
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Release|iPhone.ActiveCfg = Release|iPhone
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Release|iPhone.Build.0 = Release|iPhone
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{1AF7132C-AB4C-48EC-9447-59288DF37EB9}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Release|iPhone.Build.0 = Release|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{DB481930-2BC3-4D25-86A4-94476667C790}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = BarChart.iOS.Sample.csproj
+	EndGlobalSection
+EndGlobal

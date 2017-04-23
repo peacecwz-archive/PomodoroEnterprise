@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DbConnection-Web.config Connection String" description="DbConnection Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:peacecwzdb.database.windows.net,1433;Initial Catalog=pomodoroenterprise;Persist Security Info=False;User ID=peacecwz;Password=Admin1224;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\baris\\Documents\\Github\\PomodoroEnterprise\\PomodoroEnterprise\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DbConnection']/@connectionString" />
+  </parameter>
+</parameters>

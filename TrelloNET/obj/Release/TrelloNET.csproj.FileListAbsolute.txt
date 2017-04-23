@@ -1,0 +1,9 @@
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Release\TrelloNET.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Release\TrelloNET.pdb
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Release\Newtonsoft.Json.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Release\RestSharp.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Release\Newtonsoft.Json.xml
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\bin\Release\RestSharp.xml
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\obj\Release\TrelloNET.csprojResolveAssemblyReference.cache
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\obj\Release\TrelloNET.dll
+C:\Users\baris\Documents\Github\PomodoroEnterprise\TrelloNET\obj\Release\TrelloNET.pdb
